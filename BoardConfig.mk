@@ -267,19 +267,18 @@ TARGET_HAS_NO_WLAN_STATS := true
 TARGET_HAS_NO_POWER_STATS := true
 
 # RIL
-TARGET_RIL_VARIANT := caf
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_USES_OLD_MNC_FORMAT := true
 
-# Seccomp
-BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
-
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-06-05
 
-# SELinux
+# Seccomp
+BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 
+
+# SELinux
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
