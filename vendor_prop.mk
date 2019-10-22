@@ -242,6 +242,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
    persist.vendor.radio.data_con_rprt=1 \
    persist.radio.calls.on.ims=1
    persist.vendor.radio.flexmap_type=none
+   persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # RmNet Data
 PRODUCT_PROPERTY_OVERRIDES += \
