@@ -280,7 +280,7 @@ BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 
 # SELinux
 SELINUX_IGNORE_NEVERALLOWS := true
-include device/qcom/sepolicy/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Vendor init
