@@ -614,4 +614,7 @@
     <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
 
+    <!-- If true, the camera will be used more often. -->
+    <bool name="config_adaptive_sleep_available">false</bool>
+
 </resources>
