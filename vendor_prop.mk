@@ -301,3 +301,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=449
+
+# Disable rescue party
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.disable_rescue=true
