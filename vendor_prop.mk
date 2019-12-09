@@ -305,3 +305,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Disable rescue party
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.disable_rescue=true
+
+# Enable backpressure for GL comp
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.enable_gl_backpressure=1
+
+
