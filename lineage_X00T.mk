@@ -34,9 +34,12 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 TARGET_VENDOR := asus
 TARGET_VENDOR_PRODUCT_NAME := X00T
+TARGET_INCLUDE_WIFI_EXT := true
 SUPERIOR_OFFCIAL := true
 PRODUCT_BUILD_PROP_OVERRIDES += \
          PRIVATE_BUILD_DESC="sdm660_64-user 9 PKQ1 1287 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := 'Xiaomi/sagit/sagit:7.1.1/NMF26X/V8.2.17.0.NCACNEC:user/release-keys'
+
+
