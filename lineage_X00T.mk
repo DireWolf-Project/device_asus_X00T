@@ -39,5 +39,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
          PRIVATE_BUILD_DESC="sdm660_64-user 9 PKQ1 1287 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "asus/WW_X01BD/ASUS_X01BD_1:9/PKQ1/16.2017.1910.071-20190920:user/release-keys"
-
+BUILD_FINGERPRINT := 'Xiaomi/sagit/sagit:7.1.1/NMF26X/V8.2.17.0.NCACNEC:user/release-keys'
