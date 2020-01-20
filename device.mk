@@ -486,6 +486,10 @@ PRODUCT_COPY_FILES += \
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
+# SQlite
+PRODUCT_PACKAGES += \
+    sqlite3
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
