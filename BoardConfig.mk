@@ -282,6 +282,7 @@ BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 SELINUX_IGNORE_NEVERALLOWS := true
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Vendor init
 #TARGET_INIT_VENDOR_LIB := libinit_X00T
