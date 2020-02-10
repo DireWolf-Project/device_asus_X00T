@@ -284,6 +284,9 @@ include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SELINUX_IGNORE_NEVERALLOWS := true
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Vendor init
 #TARGET_INIT_VENDOR_LIB := libinit_X00T
 #TARGET_RECOVERY_DEVICE_MODULES := libinit_X00T
