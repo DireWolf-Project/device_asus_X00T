@@ -40,10 +40,10 @@ LAWNCHAIR_OPTOUT := true
 SAKURA_GAPPS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="crosshatch-user 10 QQ3A.200605.001 6392402 release-keys"
+    PRIVATE_BUILD_DESC="crosshatch-user 10 QQ3A.200805.001 6578210 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := google/crosshatch/crosshatch:10/QQ3A.200605.001/6392402:user/release-keys
+BUILD_FINGERPRINT := google/crosshatch/crosshatch:10/QQ3A.200805.001/6578210:user/release-keys
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
